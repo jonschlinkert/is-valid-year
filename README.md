@@ -1,6 +1,6 @@
 # is-valid-year [![NPM version](https://badge.fury.io/js/is-valid-year.svg)](http://badge.fury.io/js/is-valid-year)
 
-> Returns true if a year is valid based on a given year, range of years, sequences of years, or any mixture of these.
+> Returns true if a year is valid based on a given year, range of years, sequences of years, or any mixture of these. Useful for validating copyrights, dates that are parsed from physical documents, etc.
 
 ## Install
 
@@ -16,6 +16,11 @@ Supports years as numbers or strings:
 
 ```js
 var isValidYear = require('is-valid-year');
+
+isValidYear(2011, '2010-2015');
+//=> true
+isValidYear(2011, '1999-2001');
+//=> false
 ```
 
 **Acceptable formats**
