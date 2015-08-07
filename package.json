@@ -1,6 +1,6 @@
 {
   "name": "is-valid-year",
-  "description": "Returns true if a year is valid based on a given year, range of years, sequences of years, or any mixture of these.",
+  "description": "Returns true if a year is valid based on a given year, range of years, sequences of years, or any mixture of these. Useful for validating copyrights, dates that are parsed from physical documents, etc.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/is-valid-year",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
